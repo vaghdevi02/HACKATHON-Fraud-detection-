@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Fraud Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🚀 Insurance Fraud Detection</h1>
+
+    <div class="box">
+
+        <label>Age</label>
+        <input type="number" id="age" placeholder="Enter Age">
+
+        <label>Claim Amount</label>
+        <input type="number" id="claim" placeholder="Enter Claim Amount">
+
+        <label>Accident History</label>
+        <input type="number" id="history" placeholder="No. of Past Accidents">
+
+        <label>Location Risk (1-5)</label>
+        <input type="number" id="location" placeholder="Risk Level">
+
+        <button onclick="predict()">Check Fraud</button>
+
+        <h2 id="result"></h2>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
